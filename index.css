@@ -1,0 +1,77 @@
+
+ul {
+    color: red;
+    background-color: #eb8;
+    /* text */
+    color: green;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    text-decoration: line-through;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+p{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    font-size: 50px;
+    text-align: justify;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+
+
+div {
+    width: 500px;
+    height: 500px;
+
+}
+
+div p {
+    width: 30%;
+    height: 30%;
+    background-color: pink;
+}
+
+div p span {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    opacity: 0.3;
+}
+
+
+h2{
+    background-color: red;
+    width: 100vw;
+    height: 100vw;
+}
+
+h2{
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    padding: 20px 50px;
+    border: 5px solid black;
+    margin: 20px 100px 50px 80px;
+}
+
+
+
+
+
+
+
+
+/* Шрифты(fonts)
+    1. sans-serif <--- Arial
+    2. serif <---- Times New Roman
+    3. monospace
+    4. handwrite
+    ...
+*/
